@@ -1,0 +1,98 @@
+#content_pic .menuWrapper{
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform:uppercase;
+	letter-spacing: normal;
+	line-height: 1.45em;
+	position:relative;
+	height:542px;
+	width:797px;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
+}
+#content_pic ul.menu{
+    list-style:none;
+    width:797px;
+}
+#content_pic ul.menu > li{
+    float:left;
+    width:265px;
+    height:542px;
+    border-right:1px solid #777;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+#content_pic ul.menu > li.last{
+    border:none;
+}
+#content_pic .bg1{
+    background-image: url(../img/bg001.jpg);
+}
+#content_pic .bg2{
+    background-image: url(../img/bg002.jpg);
+}
+#content_pic .bg3{
+    background-image: url(../img/bg003.jpg);
+}
+#content_pic ul.menu > li > a{
+    float:left;
+    width:265px;
+    height:50px;
+    margin-top:450px;
+    text-align:center;
+    line-height:50px;
+    color:#ddd;
+    background-color:#333;
+    letter-spacing:1px;
+    cursor:pointer;
+    text-decoration:none;
+    text-shadow:0px 0px 1px #fff;
+}
+#content_pic ul.menu > li ul{
+    list-style:none;
+    float:left;
+    margin-top:-180px;
+    width:100%;
+    height:110px;
+    padding-top:20px;
+    background-repeat:no-repeat;
+    background-color:transparent;
+}
+#content_pic ul.menu > li ul li{
+    display:none;
+}
+#content_pic ul.menu > li ul.sub1{
+    background-image:url(../img/bg1sub.png);
+}
+#content_pic ul.menu > li ul.sub2{
+    background-image:url(../img/bg2sub.png);
+}
+#content_pic ul.menu > li ul.sub3{
+    background-image:url(../img/bg3sub.png);
+}
+#content_pic ul.menu > li ul li a{
+    color:#fff;
+    text-decoration:none;
+    line-height:30px;
+    margin-left:20px;
+    text-shadow:1px 1px 1px #444;
+    font-size:14px;
+}
+#content_pic ul.menu > li ul.sub1 li{
+    display:block;
+}
+#content_pic ul.menu > li ul li a:hover{
+    border-bottom:1px dotted #fff;
+}
+
+#content_pic *{
+	margin:0;
+    padding:0;
+}
